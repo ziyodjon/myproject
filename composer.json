@@ -1,0 +1,19 @@
+{
+    "name": "sysadmin/myproject",
+    "description": "It will be show later",
+    "autoload": {
+        "psr-4": {
+            "Sysadmin\\Myproject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sysadmin",
+            "email": "ziyodjon@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0",
+        "tightenco/collect": "^9.33"
+    }
+}
